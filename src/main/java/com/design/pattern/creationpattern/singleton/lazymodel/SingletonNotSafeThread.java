@@ -1,4 +1,4 @@
-package com.design.pattern.creationpattern.singleton.lazymode;
+package com.design.pattern.creationpattern.singleton.lazymodel;
 
 /**
  * 懒汉模式：方式一
