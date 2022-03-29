@@ -20,7 +20,7 @@ public class SingletonNotSafeThread {
      * 对外提供全局的访问对象方法，
      * @return
      */
-    public SingletonNotSafeThread getInstant(){
+    public static SingletonNotSafeThread getInstant(){
         if (singletonNotSafeThread == null) {//当singletonNotSafeThread对象空才创建
             new SingletonNotSafeThread();
         }

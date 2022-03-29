@@ -21,7 +21,7 @@ public class SingletonSafeThread {
      * 对外提供全局的创建对象方法，获取对象
      * @return
      */
-    public synchronized SingletonSafeThread getInstant(){
+    public static synchronized SingletonSafeThread getInstant(){
         if (singletonSafeThread==null) {
             singletonSafeThread=new SingletonSafeThread();
         }
