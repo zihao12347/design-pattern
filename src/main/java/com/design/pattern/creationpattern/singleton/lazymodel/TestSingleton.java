@@ -1,5 +1,7 @@
 package com.design.pattern.creationpattern.singleton.lazymodel;
 
+import java.util.TreeMap;
+
 /**
  * @Author:aaa
  * @Date:11:00
