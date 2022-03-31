@@ -15,7 +15,7 @@ import java.io.*;
  */
 public class Test {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-       // writerObjectToFile();//写入对象
+//        writerObjectToFile();//写入对象
         Singleton singleton1 = readObjectFromFile();//读取对象
         Singleton singleton2 = readObjectFromFile();
         System.out.println(singleton1==singleton2);//判断读取的是否为相同的对象

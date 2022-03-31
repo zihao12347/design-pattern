@@ -1,12 +1,10 @@
-package com.design.pattern.creationpattern.singleton.breaksingleton.reflectmodel;
+package com.design.pattern.creationpattern.singleton.breaksingleton.reflectmode;
 
 /**
  * @Author:aaa
  * @Date:16:33
  * @Version 1.0
  */
-
-import java.io.Serializable;
 
 /**
  * 反射方式破快单例模式

@@ -1,4 +1,4 @@
-package com.design.pattern.creationpattern.singleton.breaksingleton.reflectmodel;
+package com.design.pattern.creationpattern.singleton.breaksingleton.reflectmode;
 
 /**
  * @Author:aaa
@@ -8,7 +8,6 @@ package com.design.pattern.creationpattern.singleton.breaksingleton.reflectmodel
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
-import java.util.Date;
 
 /**
  * 破坏单例对象方式二----通过反射方式破快
