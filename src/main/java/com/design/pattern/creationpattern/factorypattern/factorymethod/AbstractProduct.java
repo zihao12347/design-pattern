@@ -9,6 +9,6 @@ package com.design.pattern.creationpattern.factorypattern.factorymethod;
 /**
  * 抽象产品：定义产品的功能和属性
  */
-public interface Product {
+public interface AbstractProduct {
     public String show();
 }
